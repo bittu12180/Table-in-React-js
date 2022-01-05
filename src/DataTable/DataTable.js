@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Table, Popconfirm, Button, Space, Form, Input } from "antd";
+import 'antd/dist/antd.css'
 
 import { isEmpty } from "lodash";      // Utility funtion
 
